@@ -1,0 +1,17 @@
+- server configuration
+make two folders one for the client and one for the server 
+go in server
+do npm init -y. -y awnsers all the questions and generates  a json package file
+go to node package file change the main key to server.js and make a js file with touch so it wil save
+then npm i express to install express which is a backend application that help manage server request and responseds and is a route manager.
+the npm i nodemon -D which is a dev dependancies that will restart the server if any changes are made. -D is to note that its a dev dependancies 
+then in scripts in node package we make a script to start servewr and then we put dev node server and nodemonserver repeectivly.
+
+
+- now client config
+
+thats where we put react shit we can use creat react app here
+we delete boiler code then we do rfce to generate a quick componenets
+make backend  then do npm run dev so it will call nodemon server
+we use useeffect to fetch api and dont forget to put empty array at the end
+we make a proxy and set it to local host 5000 in package json in clieng dile
